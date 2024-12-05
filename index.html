@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="index.css">   
+</head>
+<body>
+    <div class="body">
+        <input type="textbox" id="display" value="" disabled>
+            <div class="btn">
+                <button class="a" onClick="clear1()">C</button>
+                <button class="a" onClick="negateNumber()">+/-</button>
+                <button class="a" onClick="percentage()">%</button>
+                <button class="a" onClick="append('/')">÷</button>
+                <button onClick="append('7')">7</button>
+                <button onClick="append('8')">8</button>
+                <button onClick="append('9')">9</button>
+                <button class="a" onClick="append('*')">x</button>
+                <button onClick="append('4')">4</button>
+                <button onClick="append('5')">5</button>
+                <button onClick="append('6')">6</button>
+                <button class="a" onClick="append('-')">-</button>
+                <button onClick="append('1')">1</button>
+                <button onClick="append('2')">2</button>
+                <button onClick="append('3')">3</button>
+                <button class="a" onClick="append ('+')">+</button>
+                <button class="del" onclick="backspace()">Del</button>
+                <button onClick="append('0')">0</button>
+                <button onClick="append('.')">.</button>
+                <button class="a" onClick="calculate()">=</button> 
+            </div>    
+    </div>        
+</body>
+</html>
+<script src="cal.js"></script>

@@ -1,0 +1,47 @@
+body{
+    background-color: #bbadff;
+}
+.body{
+    background-color: #474540;
+    height: 525px;
+    width: 28%;
+   margin-left: 35%;
+   margin-top:30px ;
+   border-radius: 10px;
+}
+input{
+    height: 110px;
+    width: 90%;
+    background-color: beige;
+    margin: 14px;
+    background-color: #8a7e5c;
+    border-radius: 10px;
+    box-shadow: 10px;
+    margin-top: 30px;
+    font-size: 60px;
+    text-align: right;
+    color: black;
+}
+button{
+    height: 50px;
+    width: 17%;
+    margin: 1px;
+    margin-left:21px ;
+    margin-top: 15px;
+    border-radius: 7px;
+    font-size: 25px;
+    background-color: #feffdf;
+}
+.del{
+    height: 50px;
+    width: 17%;
+    margin: 1px;
+    margin-left: 21px;
+    margin-top: 15px;
+    border-radius: 7px;
+    background-color: #c7100a;
+    font-weight: bold;
+}
+.a{
+    background-color: gray;
+}
